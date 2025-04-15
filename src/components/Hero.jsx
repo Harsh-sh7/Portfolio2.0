@@ -69,10 +69,10 @@ export default function Hero() {
         transition={{ duration: 1, delay: 0.8 }}
         className="absolute bottom-0 left-0 right-0 flex flex-col md:flex-row justify-between items-end px-6 pb-10 z-10"
       >
-        <h1 className="text-[48px] md:text-[96px] leading-none font-black text-black opacity-20">
+        <h1 className="text-[48px] md:text-[96px] font-black text-black opacity-20">
           Harshit<br />Shakya
         </h1>
-        <p className="text-sm md:text-base max-w-sm text-gray-700 font-light mt-4 md:mt-0 text-right font-mono">
+        <p className="text-sm md:text-base max-w-sm text-gray-700 font-light text-right font-mono">
           Frontend developer, passionate about developing and always eager to build & learn more.
         </p>
       </motion.div>
